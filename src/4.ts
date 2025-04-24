@@ -4,10 +4,12 @@ interface User {
   email: string;
 }
 
-const user: User = {
+const nima: User = {
   id: 1,
   name: "John",
   email: "john@example.com",
+  age: 0,
+  address: "",
 };
 
 //   user.id = 2; xato chiqaradi
